@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Loganathan</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Wikipedia Spelling Error Corpus</title>
+      <link>/project/wikiparsing/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>/project/wikiparsing/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This page contains only minimal description of the project. More detailed documentation is available at &lt;a href=&#34;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/&#34;&gt;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Tamil Dependency Treebank version 0.1 (TamilTB.v0.1) is an attempt to develop a syntactically annotated corpora for Tamil. TamilTB.v0.1 contains 600 sentences enriched with manual annotation of morphology and dependency syntax in the style of Prague Dependency Treebank. TamilTB.v0.1 has been created at the Institute of Formal and Applied Linguistics, Charles University in Prague.&lt;/p&gt;
+&lt;p&gt;Treebank is an important resource in building parsers and analyzing the language. As far as our knowledge is concerned, this is the first attempt to build a treebank for Tamil language. Tamil belongs to Dravidian family of languages and mainly spoken in Southern part of India. Main features of the Tamil language include Subject-Object-Verb (SOV) word order, morphologically rich and agglutination.&lt;/p&gt;
+&lt;p&gt;The main objectives of this project include,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Annotate data at word level and syntactic level&lt;/li&gt;
+&lt;li&gt;In each level of annotation, trying for maximum level of linguistic representation&lt;/li&gt;
+&lt;li&gt;Building large annotated corpora using automatic annotation process.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The data used for the TamilTB annotation comes from the news domain. We decided to use the news data for  two reasons: (i) huge amount of data is available in digital format and can be easily downloadable and (ii) the news data can be considered as representative of written Tamil. At present, the data for the annotation comes from  &lt;a href=&#34;http://www.dinamani.com&#34;&gt;www.dinamani.com&lt;/a&gt; , and we downloaded pages randomly covering various news topics. The table below summarises the data used for annotation.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Source&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.dinamani.com&#34;&gt;www.dinamani.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Source transliterated&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Number of Words&lt;/td&gt;
+&lt;td&gt;9581&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Number of Sentences&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Morphological Layer Annotation (sen)&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Syntactic Annotation (sen)&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Tectogrammatical Layer Annotation&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;download-tamiltbv01&#34;&gt;Download TamilTB.v0.1&lt;/h2&gt;
+&lt;p&gt;The single package containing the data and the documentation can be downloaded from the following link,&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/TamilTB.v0.1.tar.gz&#34;&gt;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/TamilTB.v0.1.tar.gz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The package can be uncompressed using the following command,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[shell]$ tar -zxvf TamilTB.v0.1.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;contents-of-tamiltbv01targz&#34;&gt;Contents of TamilTB.v0.1.tar.gz&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;- TamilTB.v0.1/ (top level directory)
+      - data/
+           TamilTB.v0.1.tmt (in TMT format)
+           TamilTB.v0.1.conll (in CoNLL format, transliterated)
+           TamilTB.v0.1.utf8.conll (in CoNLL format, UTF8)
+           TamilTB.v0.1.tt (only POS tagged corpora in TnT style, transliterated)
+           TamilTB.v0.1.utf8.tt (only POS tagged corpora in TnT style, UTF8)
+      - doc/
+           index.html (main page)
+           ...
+           ...
+           ...
+      - README.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;p&gt;The annotated data in TMT format requires TrEd to be installed. TrEd can be downloaded from  &lt;a href=&#34;http://ufal.mff.cuni.cz/~pajas/tred/&#34;&gt;http://ufal.mff.cuni.cz/~pajas/tred/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After installing TrEd, you need to install TMT plugin to browse the treebank data in the tmt file. The plugin can be installed by following&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Setup -&amp;gt; Manage Extensions -&amp;gt; &amp;quot;TMT files support&amp;quot; in the TrEd.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then treebank can be browsed by opening TamilTB.v0.1.tmt in TrEd.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EnTam</title>
+      <link>/project/entam/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>/project/entam/</guid>
+      <description>&lt;p&gt;We have collected English-Tamil bilingual data from some of the publicly available websites for NLP research involving Tamil. The standard set of processing has been applied on the the raw web data before the data became available in sentence aligned English-Tamil parallel corpus suitable for various NLP tasks. The parallel corpora cover texts from bible, cinema and news domains.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    EnTam can be downloaded from the UFAL website: &lt;a href=&#34;http://ufal.mff.cuni.cz/~ramasamy/parallel/html/&#34;&gt;http://ufal.mff.cuni.cz/~ramasamy/parallel/html/&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TamilTB v0.1</title>
+      <link>/project/tamiltb/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>/project/tamiltb/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This page contains only minimal description of the project. More detailed documentation is available at &lt;a href=&#34;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/&#34;&gt;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Tamil Dependency Treebank version 0.1 (TamilTB.v0.1) is an attempt to develop a syntactically annotated corpora for Tamil. TamilTB.v0.1 contains 600 sentences enriched with manual annotation of morphology and dependency syntax in the style of Prague Dependency Treebank. TamilTB.v0.1 has been created at the Institute of Formal and Applied Linguistics, Charles University in Prague.&lt;/p&gt;
+&lt;p&gt;Treebank is an important resource in building parsers and analyzing the language. As far as our knowledge is concerned, this is the first attempt to build a treebank for Tamil language. Tamil belongs to Dravidian family of languages and mainly spoken in Southern part of India. Main features of the Tamil language include Subject-Object-Verb (SOV) word order, morphologically rich and agglutination.&lt;/p&gt;
+&lt;p&gt;The main objectives of this project include,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Annotate data at word level and syntactic level&lt;/li&gt;
+&lt;li&gt;In each level of annotation, trying for maximum level of linguistic representation&lt;/li&gt;
+&lt;li&gt;Building large annotated corpora using automatic annotation process.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The data used for the TamilTB annotation comes from the news domain. We decided to use the news data for  two reasons: (i) huge amount of data is available in digital format and can be easily downloadable and (ii) the news data can be considered as representative of written Tamil. At present, the data for the annotation comes from  &lt;a href=&#34;http://www.dinamani.com&#34;&gt;www.dinamani.com&lt;/a&gt; , and we downloaded pages randomly covering various news topics. The table below summarises the data used for annotation.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;No&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Source&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.dinamani.com&#34;&gt;www.dinamani.com&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Source transliterated&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Number of Words&lt;/td&gt;
+&lt;td&gt;9581&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Number of Sentences&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Morphological Layer Annotation (sen)&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Syntactic Annotation (sen)&lt;/td&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Tectogrammatical Layer Annotation&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;download-tamiltbv01&#34;&gt;Download TamilTB.v0.1&lt;/h2&gt;
+&lt;p&gt;The single package containing the data and the documentation can be downloaded from the following link,&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/TamilTB.v0.1.tar.gz&#34;&gt;http://ufal.mff.cuni.cz/~ramasamy/tamiltb/0.1/TamilTB.v0.1.tar.gz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The package can be uncompressed using the following command,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[shell]$ tar -zxvf TamilTB.v0.1.tar.gz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;contents-of-tamiltbv01targz&#34;&gt;Contents of TamilTB.v0.1.tar.gz&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;- TamilTB.v0.1/ (top level directory)
+      - data/
+           TamilTB.v0.1.tmt (in TMT format)
+           TamilTB.v0.1.conll (in CoNLL format, transliterated)
+           TamilTB.v0.1.utf8.conll (in CoNLL format, UTF8)
+           TamilTB.v0.1.tt (only POS tagged corpora in TnT style, transliterated)
+           TamilTB.v0.1.utf8.tt (only POS tagged corpora in TnT style, UTF8)
+      - doc/
+           index.html (main page)
+           ...
+           ...
+           ...
+      - README.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;p&gt;The annotated data in TMT format requires TrEd to be installed. TrEd can be downloaded from  &lt;a href=&#34;http://ufal.mff.cuni.cz/~pajas/tred/&#34;&gt;http://ufal.mff.cuni.cz/~pajas/tred/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After installing TrEd, you need to install TMT plugin to browse the treebank data in the tmt file. The plugin can be installed by following&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Setup -&amp;gt; Manage Extensions -&amp;gt; &amp;quot;TMT files support&amp;quot; in the TrEd.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then treebank can be browsed by opening TamilTB.v0.1.tmt in TrEd.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
